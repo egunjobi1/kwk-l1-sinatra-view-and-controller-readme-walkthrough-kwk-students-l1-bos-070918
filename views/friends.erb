@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <title>My Super Cool Friends List</title>
+  
     <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
   </head>
 
   <body>
     <h1>My Super Cool Friends List</h1>
-
+   <% @friends.each do |friend| %>
+    <% end %>
+    <h2><%= friend %></h2>
+    <% end %>
     <!-- Iterate through the @friends array here to display each item in its own <h2> tag -->
 
   </body>
